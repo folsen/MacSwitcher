@@ -12,21 +12,15 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
-    // Start watching events to figure out when to close the window
+    // Start watching events to figure out when to execute sequence
     [NSEvent addGlobalMonitorForEventsMatchingMask: (NSKeyDownMask)
                                            handler:^(NSEvent* event){
+                                               // keyCode == 4 means the h key.
                                                if ([event keyCode] == 4) {
                                                    //NSLog(@"Switching");
                                                    execute();
                                                }
-                                               NSLog(@"%d", [event keyCode]);
-//                                               int flags = [event modifierFlags];
-//                                               int altDown = flags & NSFunctionKeyMask;
-//                                               if (([event keyCode] == 7) && altDown) {
-//                                                   NSLog(@"woo");
-//                                               }
-//                                               
+//                                               NSLog(@"%d", [event keyCode]);
                                            }];
     
 }
@@ -45,7 +39,7 @@ void rightClick(const CGPoint point)
     //NSLog(@"Right Click!");
     postMouseEvent(kCGMouseButtonRight, kCGEventRightMouseDown, point);
     postMouseEvent(kCGMouseButtonRight, kCGEventRightMouseUp, point);
-    usleep(70*1000);
+    usleep(70*1000); // I'm unsure of what delays are really required. Haven't done much experimenting.
 
 }
 
@@ -78,9 +72,9 @@ void execute()
     
     CGEventRef ourEvent = CGEventCreate(NULL);
     CGPoint point = CGEventGetLocation(ourEvent);
-    NSLog(@"\nx = %.2f y = %.2f", point.x, point.y);
-    //CGPoint p = CGPointMake(20, 20);
-    //rightClick(p);
+    // Comment out log info below if you want to log different locations and
+    // then use them instead.
+    // NSLog(@"\nx = %.2f y = %.2f", point.x, point.y);
     
     // Inventory Icon
     CGPoint p1 = CGPointMake(814.00, 759.00);
@@ -115,7 +109,7 @@ void execute()
     //Close inventory again
     leftClick(p1);
     
-    
+    // Move pointer back to origin
     postMouseEvent(kCGMouseButtonRight, kCGEventMouseMoved, point);
 
 }
