@@ -1,6 +1,4 @@
-<div style="text-align:center;">
 ![What it looks like](https://github.com/ique/MacSwitcher/blob/master/macswitcher.png?raw=true "What it looks like")
-</div>
 
 Usage
 ==
