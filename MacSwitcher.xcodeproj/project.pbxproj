@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5831CA0715A0D3BB00D11CCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5831CA0615A0D3BB00D11CCF /* Cocoa.framework */; };
+		5831CA1115A0D3BB00D11CCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5831CA0F15A0D3BB00D11CCF /* InfoPlist.strings */; };
+		5831CA1315A0D3BB00D11CCF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5831CA1215A0D3BB00D11CCF /* main.m */; };
+		5831CA1715A0D3BB00D11CCF /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5831CA1515A0D3BB00D11CCF /* Credits.rtf */; };
+		5831CA1A15A0D3BB00D11CCF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5831CA1915A0D3BB00D11CCF /* AppDelegate.m */; };
+		5831CA1D15A0D3BB00D11CCF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5831CA1B15A0D3BB00D11CCF /* MainMenu.xib */; };
+		5831CA2515A0D3BB00D11CCF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5831CA2415A0D3BB00D11CCF /* SenTestingKit.framework */; };
+		5831CA2615A0D3BB00D11CCF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5831CA0615A0D3BB00D11CCF /* Cocoa.framework */; };
+		5831CA2E15A0D3BB00D11CCF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5831CA2C15A0D3BB00D11CCF /* InfoPlist.strings */; };
+		5831CA3115A0D3BB00D11CCF /* MacSwitcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5831CA3015A0D3BB00D11CCF /* MacSwitcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5831CA2715A0D3BB00D11CCF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5831C9F915A0D3BB00D11CCF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5831CA0115A0D3BB00D11CCF;
+			remoteInfo = MacSwitcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5831CA0215A0D3BB00D11CCF /* MacSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5831CA0615A0D3BB00D11CCF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5831CA0915A0D3BB00D11CCF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5831CA0A15A0D3BB00D11CCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5831CA0B15A0D3BB00D11CCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5831CA0E15A0D3BB00D11CCF /* MacSwitcher-Info.plist */ = {isa = PBXFileReference; path = "MacSwitcher-Info.plist"; sourceTree = "<group>"; };
+		5831CA1015A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5831CA1215A0D3BB00D11CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5831CA1415A0D3BB00D11CCF /* MacSwitcher-Prefix.pch */ = {isa = PBXFileReference; path = "MacSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		5831CA1615A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5831CA1815A0D3BB00D11CCF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5831CA1915A0D3BB00D11CCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5831CA1C15A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5831CA2315A0D3BB00D11CCF /* MacSwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacSwitcherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5831CA2415A0D3BB00D11CCF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5831CA2B15A0D3BB00D11CCF /* MacSwitcherTests-Info.plist */ = {isa = PBXFileReference; path = "MacSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		5831CA2D15A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5831CA2F15A0D3BB00D11CCF /* MacSwitcherTests.h */ = {isa = PBXFileReference; path = MacSwitcherTests.h; sourceTree = "<group>"; };
+		5831CA3015A0D3BB00D11CCF /* MacSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacSwitcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5831C9FF15A0D3BB00D11CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831CA0715A0D3BB00D11CCF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5831CA1F15A0D3BB00D11CCF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831CA2515A0D3BB00D11CCF /* SenTestingKit.framework in Frameworks */,
+				5831CA2615A0D3BB00D11CCF /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5831C9F715A0D3BB00D11CCF = {
+			isa = PBXGroup;
+			children = (
+				5831CA0C15A0D3BB00D11CCF /* MacSwitcher */,
+				5831CA2915A0D3BB00D11CCF /* MacSwitcherTests */,
+				5831CA0515A0D3BB00D11CCF /* Frameworks */,
+				5831CA0315A0D3BB00D11CCF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5831CA0315A0D3BB00D11CCF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA0215A0D3BB00D11CCF /* MacSwitcher.app */,
+				5831CA2315A0D3BB00D11CCF /* MacSwitcherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5831CA0515A0D3BB00D11CCF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA0615A0D3BB00D11CCF /* Cocoa.framework */,
+				5831CA2415A0D3BB00D11CCF /* SenTestingKit.framework */,
+				5831CA0815A0D3BB00D11CCF /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5831CA0815A0D3BB00D11CCF /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA0915A0D3BB00D11CCF /* AppKit.framework */,
+				5831CA0A15A0D3BB00D11CCF /* CoreData.framework */,
+				5831CA0B15A0D3BB00D11CCF /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5831CA0C15A0D3BB00D11CCF /* MacSwitcher */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA1815A0D3BB00D11CCF /* AppDelegate.h */,
+				5831CA1915A0D3BB00D11CCF /* AppDelegate.m */,
+				5831CA1B15A0D3BB00D11CCF /* MainMenu.xib */,
+				5831CA0D15A0D3BB00D11CCF /* Supporting Files */,
+			);
+			path = MacSwitcher;
+			sourceTree = "<group>";
+		};
+		5831CA0D15A0D3BB00D11CCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA0E15A0D3BB00D11CCF /* MacSwitcher-Info.plist */,
+				5831CA0F15A0D3BB00D11CCF /* InfoPlist.strings */,
+				5831CA1215A0D3BB00D11CCF /* main.m */,
+				5831CA1415A0D3BB00D11CCF /* MacSwitcher-Prefix.pch */,
+				5831CA1515A0D3BB00D11CCF /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5831CA2915A0D3BB00D11CCF /* MacSwitcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA2F15A0D3BB00D11CCF /* MacSwitcherTests.h */,
+				5831CA3015A0D3BB00D11CCF /* MacSwitcherTests.m */,
+				5831CA2A15A0D3BB00D11CCF /* Supporting Files */,
+			);
+			path = MacSwitcherTests;
+			sourceTree = "<group>";
+		};
+		5831CA2A15A0D3BB00D11CCF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5831CA2B15A0D3BB00D11CCF /* MacSwitcherTests-Info.plist */,
+				5831CA2C15A0D3BB00D11CCF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5831CA0115A0D3BB00D11CCF /* MacSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5831CA3415A0D3BB00D11CCF /* Build configuration list for PBXNativeTarget "MacSwitcher" */;
+			buildPhases = (
+				5831C9FE15A0D3BB00D11CCF /* Sources */,
+				5831C9FF15A0D3BB00D11CCF /* Frameworks */,
+				5831CA0015A0D3BB00D11CCF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacSwitcher;
+			productName = MacSwitcher;
+			productReference = 5831CA0215A0D3BB00D11CCF /* MacSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5831CA2215A0D3BB00D11CCF /* MacSwitcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5831CA3715A0D3BB00D11CCF /* Build configuration list for PBXNativeTarget "MacSwitcherTests" */;
+			buildPhases = (
+				5831CA1E15A0D3BB00D11CCF /* Sources */,
+				5831CA1F15A0D3BB00D11CCF /* Frameworks */,
+				5831CA2015A0D3BB00D11CCF /* Resources */,
+				5831CA2115A0D3BB00D11CCF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5831CA2815A0D3BB00D11CCF /* PBXTargetDependency */,
+			);
+			name = MacSwitcherTests;
+			productName = MacSwitcherTests;
+			productReference = 5831CA2315A0D3BB00D11CCF /* MacSwitcherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5831C9F915A0D3BB00D11CCF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Fredrik Olsen";
+			};
+			buildConfigurationList = 5831C9FC15A0D3BB00D11CCF /* Build configuration list for PBXProject "MacSwitcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5831C9F715A0D3BB00D11CCF;
+			productRefGroup = 5831CA0315A0D3BB00D11CCF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5831CA0115A0D3BB00D11CCF /* MacSwitcher */,
+				5831CA2215A0D3BB00D11CCF /* MacSwitcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5831CA0015A0D3BB00D11CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831CA1115A0D3BB00D11CCF /* InfoPlist.strings in Resources */,
+				5831CA1715A0D3BB00D11CCF /* Credits.rtf in Resources */,
+				5831CA1D15A0D3BB00D11CCF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5831CA2015A0D3BB00D11CCF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831CA2E15A0D3BB00D11CCF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5831CA2115A0D3BB00D11CCF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5831C9FE15A0D3BB00D11CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831CA1315A0D3BB00D11CCF /* main.m in Sources */,
+				5831CA1A15A0D3BB00D11CCF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5831CA1E15A0D3BB00D11CCF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5831CA3115A0D3BB00D11CCF /* MacSwitcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5831CA2815A0D3BB00D11CCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5831CA0115A0D3BB00D11CCF /* MacSwitcher */;
+			targetProxy = 5831CA2715A0D3BB00D11CCF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5831CA0F15A0D3BB00D11CCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5831CA1015A0D3BB00D11CCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5831CA1515A0D3BB00D11CCF /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5831CA1615A0D3BB00D11CCF /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5831CA1B15A0D3BB00D11CCF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5831CA1C15A0D3BB00D11CCF /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5831CA2C15A0D3BB00D11CCF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5831CA2D15A0D3BB00D11CCF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5831CA3215A0D3BB00D11CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5831CA3315A0D3BB00D11CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5831CA3515A0D3BB00D11CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSwitcher/MacSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacSwitcher/MacSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5831CA3615A0D3BB00D11CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSwitcher/MacSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacSwitcher/MacSwitcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5831CA3815A0D3BB00D11CCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacSwitcher.app/Contents/MacOS/MacSwitcher";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSwitcher/MacSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacSwitcherTests/MacSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5831CA3915A0D3BB00D11CCF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MacSwitcher.app/Contents/MacOS/MacSwitcher";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MacSwitcher/MacSwitcher-Prefix.pch";
+				INFOPLIST_FILE = "MacSwitcherTests/MacSwitcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5831C9FC15A0D3BB00D11CCF /* Build configuration list for PBXProject "MacSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5831CA3215A0D3BB00D11CCF /* Debug */,
+				5831CA3315A0D3BB00D11CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5831CA3415A0D3BB00D11CCF /* Build configuration list for PBXNativeTarget "MacSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5831CA3515A0D3BB00D11CCF /* Debug */,
+				5831CA3615A0D3BB00D11CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5831CA3715A0D3BB00D11CCF /* Build configuration list for PBXNativeTarget "MacSwitcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5831CA3815A0D3BB00D11CCF /* Debug */,
+				5831CA3915A0D3BB00D11CCF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5831C9F915A0D3BB00D11CCF /* Project object */;
+}
