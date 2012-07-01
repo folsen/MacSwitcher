@@ -35,19 +35,19 @@
 		5831CA0915A0D3BB00D11CCF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		5831CA0A15A0D3BB00D11CCF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		5831CA0B15A0D3BB00D11CCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5831CA0E15A0D3BB00D11CCF /* MacSwitcher-Info.plist */ = {isa = PBXFileReference; path = "MacSwitcher-Info.plist"; sourceTree = "<group>"; };
+		5831CA0E15A0D3BB00D11CCF /* MacSwitcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacSwitcher-Info.plist"; sourceTree = "<group>"; };
 		5831CA1015A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5831CA1215A0D3BB00D11CCF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5831CA1415A0D3BB00D11CCF /* MacSwitcher-Prefix.pch */ = {isa = PBXFileReference; path = "MacSwitcher-Prefix.pch"; sourceTree = "<group>"; };
+		5831CA1415A0D3BB00D11CCF /* MacSwitcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacSwitcher-Prefix.pch"; sourceTree = "<group>"; };
 		5831CA1615A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5831CA1815A0D3BB00D11CCF /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		5831CA1815A0D3BB00D11CCF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5831CA1915A0D3BB00D11CCF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5831CA1C15A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		5831CA2315A0D3BB00D11CCF /* MacSwitcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacSwitcherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5831CA2415A0D3BB00D11CCF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5831CA2B15A0D3BB00D11CCF /* MacSwitcherTests-Info.plist */ = {isa = PBXFileReference; path = "MacSwitcherTests-Info.plist"; sourceTree = "<group>"; };
+		5831CA2B15A0D3BB00D11CCF /* MacSwitcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MacSwitcherTests-Info.plist"; sourceTree = "<group>"; };
 		5831CA2D15A0D3BB00D11CCF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5831CA2F15A0D3BB00D11CCF /* MacSwitcherTests.h */ = {isa = PBXFileReference; path = MacSwitcherTests.h; sourceTree = "<group>"; };
+		5831CA2F15A0D3BB00D11CCF /* MacSwitcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MacSwitcherTests.h; sourceTree = "<group>"; };
 		5831CA3015A0D3BB00D11CCF /* MacSwitcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MacSwitcherTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
